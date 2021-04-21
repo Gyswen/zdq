@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/Ui-factory_oauth_mobile_3.9.1.8.aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9226cfd24df14e5522b89ac42c23189e/jetified-Ui-factory_oauth_mobile_3.9.1.8/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e6dca0062f26a59fce25d3b033ced2db/jetified-Ui-factory_oauth_mobile_3.9.1.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/243c6420a4a5aa767d62298bd7b88bb1/jetified-Ui-factory_oauth_mobile_3.9.1.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9226cfd24df14e5522b89ac42c23189e/jetified-Ui-factory_oauth_mobile_3.9.1.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9226cfd24df14e5522b89ac42c23189e/jetified-Ui-factory_oauth_mobile_3.9.1.8/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9226cfd24df14e5522b89ac42c23189e/jetified-Ui-factory_oauth_mobile_3.9.1.8/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

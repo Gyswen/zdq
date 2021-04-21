@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ll_gaming"
+        android:layout_width="30dp"
+        android:layout_height="70dp"
+        android:background="@drawable/bg_sports_select"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingVertical="5dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/img_gaming"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/icon_gaming_select" />
+
+        <TextView
+            android:id="@+id/tv_dj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/dj"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_dj_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

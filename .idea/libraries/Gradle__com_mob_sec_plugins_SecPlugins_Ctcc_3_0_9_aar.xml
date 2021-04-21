@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mob.sec.plugins:SecPlugins-Ctcc:3.0.9@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce23ac9b09fb9d74068301f0c1261ef1/jetified-SecPlugins-Ctcc-3.0.9/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce23ac9b09fb9d74068301f0c1261ef1/jetified-SecPlugins-Ctcc-3.0.9/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce23ac9b09fb9d74068301f0c1261ef1/jetified-SecPlugins-Ctcc-3.0.9/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

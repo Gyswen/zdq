@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scwang.smartrefresh.layout.SmartRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ddFragment.ZjfaFragment">
+
+    <com.sameal.dd.widget.HintLayout
+        android:id="@+id/hint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.sameal.dd.widget.HintLayout>
+</com.scwang.smartrefresh.layout.SmartRefreshLayout>

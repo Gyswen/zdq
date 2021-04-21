@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hjq:http:6.9@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9476cd1e85419978c754a1d82e377b0e/jetified-http-6.9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d21b72a6876d6123daf64a3a42a1e5eb/jetified-http-6.9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1947e53efc85364cc50a7016d3b8026b/jetified-http-6.9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1947e53efc85364cc50a7016d3b8026b/jetified-http-6.9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1947e53efc85364cc50a7016d3b8026b/jetified-http-6.9/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hjq/http/6.9/98840f13cf03458699f6f7d45412b7f79f2cd55b/http-6.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hjq/http/6.9/958754ffbd905ed1a213e66774e967dd04ee560a/http-6.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

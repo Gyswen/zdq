@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/CTAccount_sdk_api_v3.8.3_all_wy.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b40d341a5d844d39ed83b42c8ddeb0a/jetified-CTAccount_sdk_api_v3.8.3_all_wy/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b40d341a5d844d39ed83b42c8ddeb0a/jetified-CTAccount_sdk_api_v3.8.3_all_wy/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b40d341a5d844d39ed83b42c8ddeb0a/jetified-CTAccount_sdk_api_v3.8.3_all_wy/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.billy.android:smart-swipe-x:1.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1c61f3bca41ca8cc93f718aabb3ab67a/jetified-smart-swipe-x-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1c61f3bca41ca8cc93f718aabb3ab67a/jetified-smart-swipe-x-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1c61f3bca41ca8cc93f718aabb3ab67a/jetified-smart-swipe-x-1.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.billy.android/smart-swipe-x/1.1.0/9b9e608f5853329a18921cb8288b7867f3168f6b/smart-swipe-x-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.billy.android/smart-swipe-x/1.1.0/6d3b111d4de1e30970e7ba831c80ab202982f0de/smart-swipe-x-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

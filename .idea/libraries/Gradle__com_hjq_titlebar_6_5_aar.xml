@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hjq:titlebar:6.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2f9c60883d9afd0a7f684e647fda140c/jetified-titlebar-6.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2f9c60883d9afd0a7f684e647fda140c/jetified-titlebar-6.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2f9c60883d9afd0a7f684e647fda140c/jetified-titlebar-6.5/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hjq/titlebar/6.5/ced8bd0c22423666112c4f38b361695f45ed4648/titlebar-6.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hjq/titlebar/6.5/6e0aa7284a80035f50b70990221e51f826e3acef/titlebar-6.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hjq:logcat:8.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/018b93f18404e26992166f1dec3619ed/jetified-logcat-8.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/018b93f18404e26992166f1dec3619ed/jetified-logcat-8.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/018b93f18404e26992166f1dec3619ed/jetified-logcat-8.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hjq/logcat/8.2/cc356074a38d50ae6031097528f270ce212e053d/logcat-8.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hjq/logcat/8.2/3ca8a9bafab11fa82f795bab90bbc7587cd85f36/logcat-8.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

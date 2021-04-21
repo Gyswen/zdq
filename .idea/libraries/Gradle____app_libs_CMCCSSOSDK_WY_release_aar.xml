@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/CMCCSSOSDK-WY-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b9a24f66615c47bcbb26f7fc855025ac/jetified-CMCCSSOSDK-WY-release/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b9a24f66615c47bcbb26f7fc855025ac/jetified-CMCCSSOSDK-WY-release/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b9a24f66615c47bcbb26f7fc855025ac/jetified-CMCCSSOSDK-WY-release/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

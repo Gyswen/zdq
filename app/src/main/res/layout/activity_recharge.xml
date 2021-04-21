@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.sameal.dd.ui.ddActivity.RechargeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.hjq.bar.TitleBar
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:title="@string/gd_recharge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:text="￥"
+                android:textColor="@color/gray"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/textColor"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <View style="@style/HorizontalLineStyle" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="15dp"
+            android:text="@string/recharge_type"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="10dp">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:button="@null"
+                android:drawableStart="@mipmap/icon_yl"
+                android:drawableEnd="@drawable/btn_radio"
+                android:drawablePadding="15dp"
+                android:text="银联"
+                android:visibility="gone" />
+
+            <RadioButton
+                android:id="@+id/rb_wechat"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:button="@null"
+                android:drawableStart="@mipmap/icon_wechat"
+                android:drawableEnd="@drawable/btn_radio"
+                android:drawablePadding="15dp"
+                android:text="微信" />
+
+            <RadioButton
+                android:id="@+id/rb_alipay"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:button="@null"
+                android:checked="true"
+                android:drawableStart="@mipmap/icon_alipay"
+                android:drawableEnd="@drawable/btn_radio"
+                android:drawablePadding="15dp"
+                android:text="支付宝" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="15dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/rb_album_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:checked="true"
+                android:focusableInTouchMode="false"
+                android:padding="5dp"
+                app:buttonCompat="@drawable/radiobutton_selector" />
+
+            <TextView
+                android:id="@+id/tv_czxy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我已阅读并同意《充值服务协议》" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_confirm_recharge"
+            style="@style/ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_selector2"
+            android:text="@string/confirm_recharge" />
+
+    </LinearLayout>
+
+</ScrollView>

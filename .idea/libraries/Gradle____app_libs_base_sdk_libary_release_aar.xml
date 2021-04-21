@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/base-sdk-libary-release.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dcdf1f155dd21c5346989c77d9878c89/jetified-base-sdk-libary-release/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dcdf1f155dd21c5346989c77d9878c89/jetified-base-sdk-libary-release/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dcdf1f155dd21c5346989c77d9878c89/jetified-base-sdk-libary-release/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

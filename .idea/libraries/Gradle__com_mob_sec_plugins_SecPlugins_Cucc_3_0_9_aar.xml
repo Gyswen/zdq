@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mob.sec.plugins:SecPlugins-Cucc:3.0.9@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/01479db1d49034d6a8c88000e125e155/jetified-SecPlugins-Cucc-3.0.9/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c861701eb36058059704c3aba61505d8/jetified-SecPlugins-Cucc-3.0.9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/01479db1d49034d6a8c88000e125e155/jetified-SecPlugins-Cucc-3.0.9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/01479db1d49034d6a8c88000e125e155/jetified-SecPlugins-Cucc-3.0.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/01479db1d49034d6a8c88000e125e155/jetified-SecPlugins-Cucc-3.0.9/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

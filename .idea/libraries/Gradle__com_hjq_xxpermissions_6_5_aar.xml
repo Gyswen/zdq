@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hjq:xxpermissions:6.5@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e536eca17dd4b2023431c216cc22fb67/jetified-xxpermissions-6.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8c375c7b0fb3d2710458b69895923be1/jetified-xxpermissions-6.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/286e47c80d5b66caa6200cc1234bf9af/jetified-xxpermissions-6.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/286e47c80d5b66caa6200cc1234bf9af/jetified-xxpermissions-6.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/286e47c80d5b66caa6200cc1234bf9af/jetified-xxpermissions-6.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hjq/xxpermissions/6.5/2a8fa66b2f5214b38f6665521da3695ac3a86741/xxpermissions-6.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hjq/xxpermissions/6.5/715ab8b83f3eaa566f3466a57bd08e9413b24ad8/xxpermissions-6.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_bg"
+    android:orientation="vertical"
+    tools:context="com.sameal.dd.ui.ddActivity.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:paddingHorizontal="10dp">
+
+        <ImageButton
+            android:id="@+id/img_back"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:background="@null"
+            android:visibility="gone"
+            android:src="@mipmap/back_black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_yjdl"
+            style="@style/ButtonStyle"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:padding="0dp"
+            android:text="@string/yjdl"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="91dp"
+        android:layout_height="91dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="40dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="28dp"
+        android:background="@drawable/login_edittext_shape"
+        android:drawableStart="@mipmap/user"
+        android:drawablePadding="8dp"
+        android:hint="请输入11位手机号"
+        android:textColorHint="@color/color_cfcece"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="28dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/login_edittext_shape"
+        android:drawableStart="@mipmap/lock"
+        android:drawablePadding="8dp"
+        android:hint="请输入6~20位密码"
+        android:textColorHint="@color/color_cfcece"
+        android:inputType="textPassword"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="13dp"
+        android:paddingHorizontal="49dp">
+
+        <TextView
+            android:id="@+id/tv_msg_code_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/msg_code_login"
+            android:textColor="@color/color_999999"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_forget_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="@string/login_register"
+            android:textColor="@color/color_ee4662"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login_commit"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="28dp"
+        android:layout_marginVertical="26dp"
+        android:text="@string/login_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="9dp"
+            android:gravity="center">
+
+            <View
+                android:layout_width="73dp"
+                android:layout_height="1dp"
+                android:layout_marginEnd="4dp"
+                android:background="@color/color_eeeeee"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_or"
+                android:textColor="@color/color_dddddd"
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="73dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="4dp"
+                android:background="@color/color_eeeeee"/>
+
+        </LinearLayout>
+
+        <com.hjq.widget.view.ScaleImageView
+            android:id="@+id/iv_login_wechat"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="15dp"
+            app:scaleRatio="1.2"
+            app:srcCompat="@drawable/login_wechat_ic" />
+
+        <TextView
+            android:id="@+id/tv_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="点击登录表示您已阅读并同意《用户协议》和《隐私政策》"
+            android:textColor="@color/gray"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

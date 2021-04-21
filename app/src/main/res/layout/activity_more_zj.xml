@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.ddActivity.MoreZjActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/arrows_left_ic" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tl_zjfa"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:background="@color/white"
+            app:tabIndicatorColor="@color/transparent"
+            app:tabIndicatorFullWidth="false"
+            app:tabMode="fixed"
+            app:tabTextAppearance="@style/TabLayoutTextStyle17"
+            app:tabRippleColor="@color/transparent"
+            app:tabSelectedTextColor="@color/colorAccent"
+            app:tabTextColor="@color/textColor" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <com.hjq.widget.layout.NoScrollViewPager
+        android:id="@+id/vp_zjfa_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+</LinearLayout>

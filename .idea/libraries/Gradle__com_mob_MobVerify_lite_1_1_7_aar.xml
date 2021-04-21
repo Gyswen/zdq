@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mob:MobVerify-lite:1.1.7@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ac22c89e607778b27113deb80cd89ff4/jetified-MobVerify-lite-1.1.7/jars/libs/MobVerify-lite-1.1.7.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ac22c89e607778b27113deb80cd89ff4/jetified-MobVerify-lite-1.1.7/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ac22c89e607778b27113deb80cd89ff4/jetified-MobVerify-lite-1.1.7/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ac22c89e607778b27113deb80cd89ff4/jetified-MobVerify-lite-1.1.7/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

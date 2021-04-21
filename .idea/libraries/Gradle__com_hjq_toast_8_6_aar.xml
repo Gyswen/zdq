@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.hjq:toast:8.6@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1dbccfb7291da716dae09d19c697cc2c/jetified-toast-8.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/99a4f02ff25271a92f2009c2b79c2418/jetified-toast-8.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce8c1a9d58c6d36bcb5ab32b347389e7/jetified-toast-8.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce8c1a9d58c6d36bcb5ab32b347389e7/jetified-toast-8.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ce8c1a9d58c6d36bcb5ab32b347389e7/jetified-toast-8.6/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hjq/toast/8.6/30fa1251e86fdab025c252814fdc3f5a579bceb/toast-8.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hjq/toast/8.6/1eeff58c62426112da30e7f5b5265fb731d6349f/toast-8.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mob.sec.plugins:SecPlugins-WoCucc:3.0.9@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5a275e95e730e3613f44824774d2c82b/jetified-SecPlugins-WoCucc-3.0.9/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a681ee219b5e8bdefbbb8afcae993fdc/jetified-SecPlugins-WoCucc-3.0.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a681ee219b5e8bdefbbb8afcae993fdc/jetified-SecPlugins-WoCucc-3.0.9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a681ee219b5e8bdefbbb8afcae993fdc/jetified-SecPlugins-WoCucc-3.0.9/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

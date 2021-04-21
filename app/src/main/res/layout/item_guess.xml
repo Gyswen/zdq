@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="8dp">
+
+    <ImageView
+        android:id="@+id/img_avatar"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="3dp"
+        android:src="@mipmap/icon_contact_avatar_default" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="北京国安 VS 山东鲁能"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="未公布"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_marginTop="5dp"
+            android:text="2020-01-05 13:12:12"
+            android:textColor="@color/gray"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tv_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:text="12121212"
+            android:textColor="@color/gray"
+            android:textSize="10sp" />
+
+        <View
+            style="@style/HorizontalLineStyle"
+            android:layout_below="@id/tv_time"
+            android:layout_marginVertical="8dp" />
+
+        <TextView
+            android:id="@+id/tv_wanfa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_time"
+            android:layout_marginTop="16dp"
+            android:text="玩法：--"
+            android:textColor="@color/textColor"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tv_wocai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_time"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:text="我猜：--"
+            android:textColor="@color/textColor"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tv_jingcai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_wanfa"
+            android:layout_marginTop="5dp"
+            android:text="竞猜：--"
+            android:textColor="@color/textColor"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_wanfa"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:text="结果：--"
+            android:textColor="@color/textColor"
+            android:textSize="11sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
